@@ -1,0 +1,51 @@
+{
+  "name": "loconav-india",
+  "private": true,
+  "description": "A super cool Gatsby-WP site!",
+  "version": "0.1.0",
+  "author": "Pardeep Kumar <pardeep.kumar@gmail.com>",
+  "dependencies": {
+    "babel-plugin-styled-components": "^2.0.7",
+    "gatsby": "^4.12.1",
+    "gatsby-plugin-gatsby-cloud": "^4.12.1",
+    "gatsby-plugin-google-fonts": "^1.0.1",
+    "gatsby-plugin-image": "^2.12.1",
+    "gatsby-plugin-manifest": "^4.12.1",
+    "gatsby-plugin-offline": "^5.12.1",
+    "gatsby-plugin-react-helmet": "^5.12.1",
+    "gatsby-plugin-sharp": "^4.12.1",
+    "gatsby-plugin-styled-components": "^5.12.1",
+    "gatsby-source-filesystem": "^4.12.1",
+    "gatsby-source-wordpress": "^6.12.2",
+    "gatsby-transformer-sharp": "^4.12.1",
+    "html-react-parser": "^1.4.12",
+    "prop-types": "^15.8.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-helmet": "^6.1.0",
+    "styled-components": "^5.3.5"
+  },
+  "devDependencies": {
+    "prettier": "^2.6.2"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "0BSD",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
+    "start": "gatsby develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+  },
+  "bugs": {
+    "url": "https://github.com/gatsbyjs/gatsby/issues"
+  }
+}
